@@ -86,6 +86,110 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*--- Base Header -- Footer styles----*/
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header .content-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer social-icons{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer social p{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Hero Area */
+
+.hero-area{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside{  
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features features-items{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Reviews */
+.reviews{}
+
+/*========
+About page 
+==========*/
+
+.mission{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*===
+FAQ Page
+=====*/
+.faq{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
 /* ==========================================================================
    Helper classes
@@ -159,11 +263,7 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
-}
+
 
 .clearfix::after {
   clear: both;
