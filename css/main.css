@@ -98,6 +98,7 @@ textarea {
   Author's custom styles
   ========================================================================== */
 /* General Styles */
+
 html {
   font-size: 16px;
 }
@@ -106,6 +107,7 @@ body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul, 
@@ -135,6 +137,16 @@ h4 {
 p {
   font-size: .875em;
   line-height: 1.285;
+}
+	
+img {
+  address {
+  width: 100%;
+  font-style: normal;
+}
+
+figure {
+  margin: 0;
 }
 
 address {
@@ -166,6 +178,14 @@ header .content-wrapper {
  align-items: center;
  flex-flow: row wrap;
  margin:0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -221,16 +241,21 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
 footer .copyright {
   margin: 20px 0;
 }
-
-
 /* -------------- Mobile Styles - Homepage ----------------- */
 
 /* Hero Area */
@@ -238,6 +263,7 @@ footer .copyright {
   background: url(../img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center ;
   flex-flow: row wrap;
@@ -261,14 +287,14 @@ aside {
 }
 
 aside .form{
-  margin-top: 30px;	
+  margin-top: 30px;
 }
 
 input[type=text] {
   box-sizing: border-box;
 	width: 100%;
   color: #2a423a;
-  font-style: italic;	
+  font-style: italic;
   padding: 1em;
 }
 
@@ -282,20 +308,23 @@ input[type=button] {
   font-size: 1.125em;
   color: #e2e3ed;
   border: none;
-  text-align: center;	
+  text-align: center;
   text-transform: uppercase;
 }
 
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
 .features h2 {
- margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .features article {
@@ -303,11 +332,16 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features features-items {
+.features .features-items {
   display: flex;
   justify-content: center ;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
@@ -343,6 +377,21 @@ About page
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-section {
