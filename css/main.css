@@ -583,7 +583,6 @@ header nav ul {
 }
 
 /*** Aside ***/
-
 aside .content-wrapper {
   margin: 50px 0;
   display: flex; 
@@ -709,7 +708,6 @@ footer .copyright {
 /* ==========================================================================
   FAQ Page
 ========================================================================== */
-
 .faq .content-wrapper {
   justify-content: space-between;
 }
@@ -728,7 +726,6 @@ footer .copyright {
   line-height: 1.125;
   }
 }
-
 /*Desktop styles here*/
 @media only screen and (min-width: 1200px) {  
 
@@ -798,7 +795,6 @@ footer h4 {
 /* ==========================================================================
      About Page
 ========================================================================== */
-
 .map figure {
   padding-bottom: 37.5%;
 }
@@ -832,7 +828,6 @@ FAQ Page
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
 @media print {
   *,
   *::before,
